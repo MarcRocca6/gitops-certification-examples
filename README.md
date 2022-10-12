@@ -18,7 +18,7 @@ By default (and as a safety mechanism), automated sync will not delete resources
 `argocd app set <APPNAME> --allow-empty`
 
 
-#### Deploy Argo CD to Kubernetes
+## Deploy Argo CD to Kubernetes
 Use the terminal to deploy Argo CD:
 
 `kubectl create namespace argocd`
@@ -32,7 +32,7 @@ To view the deployment enter
 
 Note that this is simple installation method without any authentication. In a real setting you would probably setup SSO with your ArgoCD instance.
 
-#### Expose the Argo CD UI
+## Expose the Argo CD UI
 Feel free to look at the file service.yml in the Editor tab. It is a standard NodePort service resource.
 
 Use the terminal to create it in the cluster:
